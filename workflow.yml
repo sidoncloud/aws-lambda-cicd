@@ -6,7 +6,7 @@ on:
 env:
   AWS_REGION: us-east-1
   LAMBDA_FUNCTION_NAME: MySimpleLambdaFunction
-  AWS_ROLE_TO_ASSUME: arn:aws:iam::127489365181:role/gitactions-lambda-role
+  AWS_ROLE_TO_ASSUME: arn:aws:iam::{aws-account-number}:role/gitactions-lambda-role
 
 permissions:
   id-token: write
